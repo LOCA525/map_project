@@ -1,6 +1,51 @@
 .nav {
-  height: 100px;
+  height: 80px;
   display: flex;
   justify-content: space-between;
-  background: border solid darkblue;
+  align-items: center;
+  box-shadow: 0 1px 0 #091e4240;
+  padding: 10px;
+}
+
+/* .tab1 {
+  display: inline-block;
+} */
+
+.logo {
+  display: inline-block;
+}
+
+.title {
+  display: inline-block;
+}
+
+.alarm {
+  display: inline-block;
+}
+.myPage {
+  display: inline-block;
+}
+.login {
+  display: inline-block;
+}
+
+.search form {
+  display: flex;
+  align-items: center;
+}
+
+.searchInput {
+  font-size: 20px;
+  line-height: 20px;
+  width: 400px;
+  height: 40px;
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.search button {
+  width: 70px;
+  height: 40px;
+  background-color: black;
+  color: #fff;
 }
