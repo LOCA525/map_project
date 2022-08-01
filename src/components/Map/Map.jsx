@@ -1,11 +1,7 @@
 import "./style.css";
 
 const Map = () => {
-  return (
-    <>
-      <div></div>
-    </>
-  );
+  return <></>;
 };
 
 export default Map;

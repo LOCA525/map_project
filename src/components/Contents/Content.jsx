@@ -5,9 +5,6 @@ const Content = () => {
     <>
       <div className="contentBox">
         <div className="contentItem">Item</div>
-        <div className="contentItem">Item</div>
-        <div className="contentItem">Item</div>
-        <div className="contentItem">Item</div>
       </div>
     </>
   );
