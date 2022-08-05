@@ -1,0 +1,8 @@
+.searchBox {
+  padding: 10px;
+  flex-direction: column;
+  overflow-y: scroll;
+  border: solid 1px #091e4240;
+  width: 400px;
+  height: calc(100vh - 80px);
+}

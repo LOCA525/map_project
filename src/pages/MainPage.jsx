@@ -1,14 +1,16 @@
-import Content from "../components/Contents/Content";
 import Nav from "../components/Nav/Nav";
 import "./style.css";
-import Map from "../components/Map/Map";
+import MapContainer from "../components/Map/MapContainer";
+import SearchList from "../components/SearchList/SearchList";
 
 const MainPage = () => {
   return (
     <>
       <Nav />
-      <Content />
-      <Map />
+      <div className="container">
+        <SearchList />
+        <MapContainer />
+      </div>
     </>
   );
 };

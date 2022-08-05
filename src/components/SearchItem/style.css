@@ -1,0 +1,7 @@
+.searchItem {
+  border: solid 1px black;
+  background-color: aliceblue;
+  text-align: center;
+  height: 150px;
+  margin-bottom: 10px;
+}
