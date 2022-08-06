@@ -5,13 +5,13 @@ import SearchList from "../components/SearchList/SearchList";
 
 const MainPage = () => {
   return (
-    <>
+    <div>
       <Nav />
       <div className="container">
         <SearchList />
         <MapContainer />
       </div>
-    </>
+    </div>
   );
 };
 
