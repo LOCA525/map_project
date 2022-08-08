@@ -20,7 +20,7 @@ const SearchInput = () => {
     <div className="search">
       <form action="submit" onSubmit={onSubmit}>
         <input placeholder="지역검색" className="searchInput" value={searchValue} onChange={onChange} />
-        <button type="submit">검색!!!!!!</button>
+        <button type="submit">검색</button>
       </form>
     </div>
   );
