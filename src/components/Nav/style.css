@@ -13,6 +13,7 @@
 
 .logo {
   display: inline-block;
+  margin-right: 10px;
 }
 
 .title {
@@ -21,12 +22,15 @@
 
 .alarm {
   display: inline-block;
+  margin-right: 10px;
 }
 .myPage {
   display: inline-block;
+  margin-right: 10px;
 }
 .login {
   display: inline-block;
+  margin-right: 10px;
 }
 
 .search button {
