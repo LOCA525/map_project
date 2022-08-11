@@ -8,6 +8,10 @@
   line-height: 20px;
   width: 400px;
   height: 40px;
-  border: 1px solid black;
+  border: 2px solid rgb(173, 200, 157);
   padding: 10px;
+}
+
+.searchInput:focus {
+  border: 2px solid rgb(80, 153, 107);
 }

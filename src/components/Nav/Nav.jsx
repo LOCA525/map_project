@@ -5,7 +5,7 @@ const Nav = () => {
   return (
     <div className="nav">
       <div className="tab1">
-        <div className="logo">로고</div>
+        <img src="/logo.png" alt="logo" className="logo" />
         <div className="title">스게더</div>
       </div>
 
