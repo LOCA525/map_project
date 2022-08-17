@@ -13,13 +13,20 @@ const SearchInput = () => {
 
   const onSubmit = (e) => {
     e.preventDefault();
-    dispatch(changePlace(searchValue));
+    dispatch(changePlace(searchValue + "꽃집"));
     setSearchValue("");
   };
   return (
     <div className="search">
       <form action="submit" onSubmit={onSubmit}>
-        <input placeholder="지역검색" className="searchInput" value={searchValue} onChange={onChange} />
+        <div className="selectBox">
+          <select name="searchSelect" className="select">
+            <option value="지역">지역</option>
+            <option value="키워드">키워드</option>
+          </select>
+        </div>
+
+        <input placeholder="예쁜 꽃 팔아요" className="searchInput" value={searchValue} onChange={onChange} />
         <button type="submit">검색</button>
       </form>
     </div>
