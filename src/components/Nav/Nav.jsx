@@ -6,7 +6,7 @@ const Nav = () => {
     <div className="nav">
       <div className="tab1">
         <img src="/logo.png" alt="logo" className="logo" />
-        <div className="title">스게더</div>
+        <div className="title">KKOT</div>
       </div>
 
       <SearchInput />

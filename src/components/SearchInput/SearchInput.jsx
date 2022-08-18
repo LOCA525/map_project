@@ -26,7 +26,12 @@ const SearchInput = () => {
           </select>
         </div>
 
-        <input placeholder="예쁜 꽃 팔아요" className="searchInput" value={searchValue} onChange={onChange} />
+        <input
+          placeholder="장소, 버스, 지하철, 도로검색"
+          className="searchInput"
+          value={searchValue}
+          onChange={onChange}
+        />
         <button type="submit">검색</button>
       </form>
     </div>
